@@ -1,0 +1,484 @@
+/* Common Css Start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Common Css End */
+/* Menu Start */
+header{
+    border-bottom: 3px solid #EEF0F3;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 13%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu {
+}
+.menu ul{
+}
+.menu ul li{
+}
+.menu ul li a{
+    color: #3B506C;
+}
+.menu ul li a:hover{
+    color: #008AFF !important;
+}
+/* Menu End */
+/* Banner Start */
+.banner {
+    padding: 60px 0;
+}
+.b_content {
+    text-align: center;
+}
+.b_content h1{
+    font-size: 45px;
+    color: #3B506C;
+    margin: 0;
+}
+.b_content h2{
+    margin: 15px 0;
+    font-size: 45px;
+    color: #008AFF;
+}
+.b_content p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #3B506C;
+    word-spacing: 1px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.b_image {
+    width: 75%;
+    margin: 0 auto;
+}
+.b_image img{
+    width: 100%;
+}
+/* Banner End */
+/* Success Start */
+.success{
+    padding: 50px 0;
+}
+.s_content{
+    overflow: hidden;
+}
+.success_left{
+    width: 90%;
+    text-align: right;
+}
+.success_left h2{
+    color: #0F2656;
+    font-size: 45px;
+    margin: 0;
+}
+
+.success_right{
+    width: 90%;
+}
+.success_right h2{
+    font-size: 45px;
+    color: #F15767;
+    margin: 0;
+}
+.success_right p {
+    line-height: 24px;
+    word-spacing: 1px;
+    color: #3B506C;
+    margin-top: 10px;
+}
+/* Success End */
+/* Gallery Start */
+.gallery{
+    padding: 50px 0;
+}
+.g_content{
+    width: 100%;
+    padding: 20px;
+}
+.gallery h2{
+    color: #0F2656;
+    margin: 0;
+}
+.gallery p{
+    color: #3B506C;
+    word-spacing: 1px;
+    line-height: 24px;
+}
+.card-1{
+    background: #FEEBED;
+}
+.card-2{
+    background: #EAF9F4;
+}
+.card-3{
+    background: #FFF8E8;
+}
+/* Gallery End */
+/* Verify age start */
+.verify-age{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #dbdada63;
+    text-align: center;
+    position: relative;
+}
+.age-wrapper{
+
+}
+.age-wrapper h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.age-wrapper input{
+    width: 300px;
+    margin-right: 10px;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: inset 0 0 10px #b6b6b6;
+}
+/* Modal start */
+.modal-wrap{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.active{
+    display: flex;
+}
+.modal-box{
+    width: 350px;
+    max-width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px #b9b8b8;
+    border-radius: 5px;
+}
+.modal-box i{
+    font-size: 70px;
+}
+
+.modal-box h3{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.modal-box p{
+    font-size: 18px;
+    color: #494848;
+}
+.modal-box button{
+    width: 65%;
+    padding: 10px 0;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.modal-wrap .adult i{
+    color: rgb(6, 189, 6);
+}
+.modal-wrap .adult h3{
+    color: rgb(6, 189, 6);
+}
+.modal-wrap .adult button{
+    background-color: rgb(6, 189, 6);
+}
+.modal-wrap .child i{
+    color: red;
+}
+.modal-wrap .child h3{
+    color: red;
+}
+.modal-wrap .child button{
+    background-color: red;
+}
+/* Modal end */
+/* Verify age end */
+/* Footer Start */
+footer{
+    background: #008AFF;
+    height: 80px;
+    text-align: center;
+}
+footer p{
+    font-size: 14px;
+    color: #a8ccff;
+    line-height: 80px;
+}
+footer p span{
+    font-weight: bolder;
+    color: #fff;
+    letter-spacing: 3px;
+}
+/* Footer End */
+
+
+/* Responsive Start */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+        .banner {
+            padding: 25px 0;
+        }
+    
+        .b_content h1 {
+            font-size: 27px;
+        }
+    
+        .b_content h2 {
+            font-size: 27px;
+        }
+        /* success Section */
+        .success_left {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .success_left h2 {
+            font-size: 27px;
+        }
+
+        .success_right {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .success_right h2 {
+            font-size: 27px;
+        }
+
+        .success_right p {}
+
+        /* Gallery section */
+        .gallery {
+            padding: 30px 0;
+        }
+
+        .g_content {
+            width: 90%;
+            margin: 10px auto;
+            padding: 20px;
+        }
+
+        .gallery h2 {
+            font-size: 30px;
+        }
+
+        .gallery p {}
+
+
+        .verify-age {
+            padding: 30px 0;
+        }
+
+        .age-wrapper h2 {
+            font-size: 27px;
+        }
+
+        footer p span {
+            letter-spacing: 0px;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px)  {
+        .banner {
+            padding: 30px 0;
+        }
+    
+        .b_content h1 {
+            font-size: 35px;
+        }
+    
+        .b_content h2 {
+            font-size: 35px;
+        }
+        /* success Section */
+        .success_left {
+            width: 100%;
+        }
+
+        .success_left h2 {
+            font-size: 35px;
+        }
+
+        .success_right {
+            width: 100%;
+        }
+
+        .success_right h2 {
+            font-size: 35px;
+        }
+
+        .success_right p {}
+
+        /* Gallery section */
+        .gallery {
+            padding: 30px 0;
+        }
+
+        .g_content {
+            width: 90%;
+            margin: 10px auto;
+            padding: 20px;
+        }
+
+        .gallery h2 {
+            font-size: 30px;
+        }
+
+        .gallery p {}
+
+        .verify-age {
+            padding: 30px 0;
+        }
+
+        .age-wrapper h2 {
+            font-size: 35px;
+        }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        .banner {
+            padding: 40px 0;
+        }
+    
+        .b_content h1 {
+            font-size: 40px;
+        }
+    
+        .b_content h2 {
+            font-size: 40px;
+        }
+        /* success Section */
+        .success_left {
+            width: 100%;
+        }
+
+        .success_left h2{
+            font-size: 40px;
+        }
+
+        .success_right {
+            width: 100%;
+        }
+
+        .success_right h2 {
+            font-size: 40px;
+        }
+
+        .success_right p {}
+
+        /* Gallery section */
+        /* Gallery section */
+        .gallery {
+            padding: 50px 0;
+        }
+
+        .g_content {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .gallery h2 {
+            font-size: 30px;
+        }
+
+        .gallery p {}
+
+        .verify-age {
+            padding: 40px 0;
+        }
+
+        .age-wrapper h2 {
+            font-size: 40px;
+        }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+        /* Banner section */
+        .banner {
+            padding: 60px 0;
+        }
+    
+        .b_content h1 {
+            font-size: 45px;
+        }
+    
+        .b_content h2 {
+            font-size: 45px;
+        }
+        /* success Section */
+        .success_left {
+            width: 90%;
+        }
+
+        .success_left h2 {
+            font-size: 45px;
+        }
+
+        .success_right {
+            width: 90%;
+        }
+
+        .success_right h2 {
+            font-size: 45px;
+        }
+
+        .success_right p {
+        }
+        /* Gallery section */
+        .gallery {
+            padding: 50px 0;
+        }
+
+        .g_content {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .gallery h2 {
+            font-size: 35px;
+        }
+
+        .gallery p {
+        }
+        
+        .verify-age {
+            padding: 50px 0;
+        }
+
+        .age-wrapper h2 {
+            font-size: 45px;
+        }
+}
+
+/* Extra large devices (large laptops and desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+
+}

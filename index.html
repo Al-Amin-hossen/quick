@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header Start -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/quick.jpg" alt="Quick">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end menu" id="menu">
+                    <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+    <!-- Banner section start -->
+    <section class="banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10 ">
+                    <div class="b_content">
+                        <h1>It's time to amplify your</h1>
+                        <h2>online business</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam</p>
+                        <div class="b_image">
+                            <img src="images/banner.jpg" alt="Quick">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section End -->
+    <!-- Success Section start -->
+    <section class="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="success_left">
+                        <h2>Successfully completed projects & ideas</h2>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="success_right">
+                        <h2>3k+</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Success Section end -->
+    <!-- Gallery Section start -->
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="g_content card-1">
+                        <img class="img-fluid" src="images/image1.jpg" alt="Quick">
+                        <h2>Unleash your creativity</h2>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="g_content card-2">
+                        <img class="img-fluid" src="images/image2.jpg" alt="Quick">
+                        <h2>Unleash your creativity</h2>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="g_content card-3">
+                        <img class="img-fluid" src="images/image3.jpg" alt="Quick">
+                        <h2>Unleash your creativity</h2>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section end -->
+    <!-- Age verification section start -->
+    <section class="verify-age">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="age-wrapper">
+                        <h2>Verify age</h2>
+                        <p id="output"></p>
+                        <input placeholder="Inter your age" id="age">
+                        <button onclick="verify()" class="btn btn-danger">Submit</button>
+                    </div>
+                    <!-- Modal Start -->
+                    <div class="modal-wrap" id="modal-adult">
+                        <div class="modal-box  adult">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <h3>Congratulations</h3>
+                            <p>You are an adult.</p>
+                            <button onclick="closeAdult()">Ok</button>
+                        </div>
+                    </div>
+                    <div class="modal-wrap" id="modal-child">
+                        <div class="modal-box child">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <h3>!Oops</h3>
+                            <p>You are a child!</p>
+                            <button onclick="closeChild()">Ok</button>
+                        </div>
+                    </div>
+                    <!-- Modal end -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Age verification section end -->
+    <!-- Footer start -->
+    <footer>
+        <p>&copy;Copyright by <span>Al Amin Hossen</span>. All right reserve 2024</p>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="https://kit.fontawesome.com/ef8298ec22.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
